@@ -8,7 +8,6 @@ A powerful CLI application to extract and analyze HTML content from websites usi
 - ️ Retrieve specific HTML attributes
 -  Clean and readable text or raw HTML output
 -  Collect all unique class names on a page
--  Crawl internal links and extract further links
 -  Save results to a file
 -  Verbose logging for debugging
 

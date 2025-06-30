@@ -13,8 +13,8 @@ export async function fetchAndExtract({ url, selector, attr, html, verbose }) {
   }
 
   return elements.map((i, el) => {
-    if (attr) return $(el).attr(attr) || '';
     if (html) return $(el).html();
+    if (attr) return $(el).attr(attr) || '';
     return $(el).text().trim();
   }).get();
 }
